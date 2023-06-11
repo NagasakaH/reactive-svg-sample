@@ -3,7 +3,7 @@ import { ReactComponent as Test } from "./test.drawio.svg";
 import { reactiveSVGSettings, loadSettings } from "@nagasakah/reactive-svg";
 
 const settings: reactiveSVGSettings = {
-  baseURL: `${process.env.PUBLIC_URL}md/`,
+  baseURL: `${process.env.PUBLIC_URL}/md/`,
   events: [
     {
       name: "rect1",
